@@ -470,5 +470,28 @@ hr{
       margin: 0.3rem 0;
     }
 }
-  
 
+.box-1 .box-image{
+    background-image: url("images/box1_image.jpg");
+}
+.box-2 .box-image{
+   background-image: url("images/box2_image.jpg");  
+}
+.box-3 .box-image{
+   background-image: url("images/box3_image.jpg");  
+}
+.box-4 .box-image{
+   background-image: url("images/box4_image.jpg");  
+}
+.box-5 .box-image{
+   background-image: url("images/box5_image.jpg");  
+}
+.box-6 .box-image{
+   background-image: url("images/box6_image.jpg");  
+}
+.box-7 .box-image{
+   background-image: url("images/box7_image.jpg");  
+}
+.box-8 .box-image{
+   background-image: url("images/box8_image.jpg");  
+}
