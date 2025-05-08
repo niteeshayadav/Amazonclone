@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="logo border"></div>
+          <div class="nav-address border">
+            <span id="deliver">Deliver to</span>
+            <div class="icon-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="country">India</span>
+            </div> 
+          </div>
+          <div class="nav-search">
+            <div class="search">
+                <select id="select">
+                    <option value="All">All</option>
+                    <option value="Arts and crafts">Arts and crafts</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Mobiles">Mobiles</option>
+                    <option value="Women's Fashion">Women's Fashion</option>
+                    <option value="Men's Fashion">Men's Fashion</option>   
+                </select>
+                <input type="search" id="search" placeholder="Search Amazon">
+                <i id="search-icon"class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="sign-in border">
+            <span id="hello">Hello,sign in</span>
+            <span id="accounts">Accounts & Lists</span>
+          </div>
+          <div class="ReturnsOrders border">
+            <span id="returns">Returns</span>
+            <span id="orders">& Orders</span>
+          </div>
+          <div class="cart border">
+            <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+            <span class="cart-name">Cart</span> 
+          </div>
+        </div>
+        <div class="panel">
+          <div class="menu border">
+            <a href="#">
+              <i id="menu-icon"class="fa-solid fa-bars"></i>
+              <span id="All">All</span>
+            </a>
+          </div>
+          <div class="Today border"><a href="#">Today's Deals</a></div>
+          <div class="Customerservice border"><a href="#">Customer Service</a></div>
+          <div class="Registry border"><a href="#">Registry</a></div>
+          <div class="Giftcards border"><a href="#">Gift Cards</a></div>
+          <div class="Sell border"><a href="#">Sell</a></div>
+        </div>
+    </header>
+    <div class="Hero-Section">
+      
+      <div class="Hero-msg">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="#" id="anc-2">Click here to go to amazon.in</a></p>
+      </div>
+    </div>
+    
+    <div class="shop-section">
+      <div class="box-1 box">
+        <div class="box-content">
+          <h2>Clothes</h2>
+          <div class="box-image" style="background-image: url('/Images/box1_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-2 box">
+        <div class="box-content">
+          <h2>Health & Personal Care</h2>
+          <div class="box-image" style="background-image: url('/Images/box2_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-3 box">
+        <div class="box-content">
+          <h2>Furniture</h2>
+          <div class="box-image" style="background-image: url('/Images/box3_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-4 box">
+        <div class="box-content">
+          <h2>Electronics</h2>
+          <div class="box-image" style="background-image: url('/Images/box4_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-5 box">
+        <div class="box-content">
+        <h2>Beauty & Makeup</h2>
+        <div class="box-image" style="background-image: url('/Images/box5_image.jpg');"></div>
+        <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-6 box">
+        <div class="box-content">
+          <h2>Pet Care</h2>
+          <div class="box-image" style="background-image: url('/Images/box6_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-7 box">
+        <div class="box-content">
+          <h2>New arrivals in Toys</h2>
+          <div class="box-image" style="background-image: url('/Images/box7_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+      <div class="box-8 box">
+        <div class="box-content">
+          <h2>Discover Fashion Trends</h2>
+          <div class="box-image" style="background-image: url('/Images/box8_image.jpg');"></div>
+          <span class="shop-now"><a href="#" id="anc-2">Shop now</a></span>
+        </div>
+      </div>
+    </div>
+</body>
+
+<!--footer-->
+
+<footer>
+  <div class="footer-1">
+    Back to Top
+  </div>
+  
+  <div class="footer-2">
+    <ul class="table">
+      <li><span class="table-head">Get to Know Us</span></li>
+      <li><a href="#" class="anc3">Careers</a></li>
+      <li><a href="#" class="anc3">Blog</a></li>
+      <li><a href="#" class="anc3">About Amazon</a></li>
+      <li><a href="#" class="anc3">Investor Relations</a></li>
+      <li><a href="#" class="anc3">Amazon Devices</a></li>
+      <li><a href="#" class="anc3">Amazon Science</a></li>
+    </ul>
+    <ul class="table">
+      <li><span class="table-head">Make Money with Us</span></li>
+      <li><a href="#" class="anc3">Sell products on Amazon</a></li>
+      <li><a href="#" class="anc3">Sell on Amazon Business</a></li>
+      <li><a href="#" class="anc3">Sell on Amazon Business</a></li>
+      <li><a href="#" class="anc3">Sell apps on Amazon</a></li>
+      <li><a href="#" class="anc3">Become an Affiliate</a></li>
+      <li><a href="#" class="anc3">Advertise Your Products</a></li>
+      <li><a href="#" class="anc3">Self-Publish with Us</a></li>
+      <li><a href="#" class="anc3">Host an Amazon Hub</a></li>
+      <li><a href="#" class="anc3">See More Make Money with Us</a></li>
+    </ul>
+    <ul class="table">
+      <li><span class="table-head">Amazon Payment Products</span></li>
+      <li><a href="#" class="anc3">Amazon Business Card</a></li>
+      <li><a href="#" class="anc3">Shop with Points</a></li>
+      <li><a href="#" class="anc3">Reload Your Balance</a></li>
+      <li><a href="#" class="anc3">Amazon Currency Converter</a></li>
+    </ul>
+    <ul class="table">
+      <li><span class="table-head">Let Us Help You</span></li>
+      <li><a href="#" class="anc3">Amazon and COVID-19</a></li>
+      <li><a href="#" class="anc3">Your Account</a></li>
+      <li><a href="#" class="anc3">Your Orders</a></li>
+      <li><a href="#" class="anc3">Shipping Rates & Policies</a></li>
+      <li><a href="#" class="anc3">Returns & Replacements</a></li>
+      <li><a href="#" class="anc3">Manage Your Content and Devices</a></li>
+      <li><a href="#" class="anc3">Help</a></li>
+    </ul> 
+  </div>
+  <hr>
+  <div class="footer-3">
+    <div class="amazon-logo"></div>
+  </div>
+  <div class="footer-4">
+    <div class="first-line ">
+      <a href="#" class="anc4">Conditions of Use</a>
+      <a href="#" class="anc4">Privacy Notice</a>
+      <a href="#" class="anc4">Customer Health Data Privacy Disclosure</a>
+      <a href="#" class="anc4">Your Ads Privacy Choices</a>
+    </div>
+    <div class="second-line">
+      <span class="copyright-icon"><i class="fa-regular fa-copyright"></i></span>
+      <span class="copyright-line">1996-2025, Amazon.com, Inc. or its affiliate</span>
+    </div>
+  </div>
+</footer>
+
+</html>

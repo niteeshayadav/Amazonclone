@@ -1,0 +1,474 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border{
+    border: 2px solid transparent;
+    padding: 7px;
+    border-radius: 3%;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-address{
+    margin: 0.31rem 0.12rem 0.31rem 0rem;
+    padding: 0rem 0.56rem;
+    width: 5.5rem;
+
+}
+#deliver{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 0.9rem;
+}
+.icon-location{
+    font-size: 1rem;
+    width: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+#country{
+    margin-left: 0.18rem;
+}
+.logo{
+    background-image: url("/Images/amazon_logo\ \(1\).png");
+    width: 114px;
+    height: 50px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-search{
+    padding: 10px 4px 10px 3px;
+    width: 624px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    margin: 0px;
+    width: 640px;
+    display: flex;
+   
+    
+}
+#select{
+    width: 45px ;
+    height: 38px;
+    border: none;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+    background-color: #e2dfdf;
+    color: #0F1111;
+}
+#search{
+    width: 600px;
+    height: 38px;
+    border: none;
+    width: 100%;
+    
+}
+#search-icon{
+    width: 45px;
+    height: 38px;
+    background-color: #febd68;
+    color: #0F1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+
+}
+.sign-in{
+    display: flex;
+    width: 132px;
+    flex-wrap: wrap;
+}
+#hello{
+    font-size: 0.85rem;
+    color: #FFFFFF;
+}
+#accounts{
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.ReturnsOrders{
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#returns{
+    font-size: 0.85rem;
+}
+#orders{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cart{
+    width: 84px;
+    margin-bottom: 0px;
+    
+}
+.cart-icon{
+    font-size: 30px;
+    
+}
+.cart-name{
+    font-weight: bold;
+}
+
+/*Panel*/
+.panel{
+    background-color:#262727 ;
+    height: 39px;
+    display: flex;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    gap: 10px;
+}
+.menu{
+    width: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+#menu-icon{
+     font-size: 18px;
+     font-weight: bold;
+}
+#All{
+    font-weight: bold;
+}
+.Today{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 108px;
+}
+.Customerservice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+}
+.Registry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69px;
+}
+.Giftcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.Sell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+}
+/*Hero-Section*/
+.Hero-Section{
+    background-image: url("/Images/hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+.Hero-msg{
+    color: #0F1111;
+    background-color: #f5f6f6;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    
+}
+#anc-2{
+    color: #2162A1;
+}
+#anc-2:hover{
+    color: #103356;
+    text-decoration: underline;
+}
+
+/*shop-section*/
+.shop-section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}   
+.box{
+    
+    background-color: #FFFFFF;
+    height: 385px;
+    width: 350px;
+    margin-top: 15px;
+    padding: 20px 0px 15px ;
+    margin-bottom: 2rem;
+    
+    
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    
+    
+}
+#anc-2{
+    color: #2162A1;
+    font-size: 15px;
+}
+#anc-2:hover{
+    color: #103356;
+    text-decoration: none;
+    
+}
+/*footer*/
+footer{
+    margin-top: 1.5rem;
+}
+.footer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    font-size: 0.85rem;
+    height: 3rem;
+}
+.footer-2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.table{
+    list-style-type: none;
+    padding:3rem;
+}
+li{
+    margin-top: 5px;
+    line-height: 1.5rem;
+}
+.table-head{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.anc3{
+    color: #DDDDDD;
+    font-size: 0.90rem;
+}
+.anc3:hover{
+    text-decoration: underline;
+    text-decoration-color: #DDDDDD;
+}
+hr{
+   background-color: #b7b3b3;
+   height: 0.70px;
+   border: none;
+}
+.footer-3{
+    height: 4.5rem;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.80rem;
+}
+.amazon-logo{
+    
+    background-image: url("/Images/amazon_logo\ \(1\).png");
+    width: 7.5rem;
+    height: 4.5rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.footer-4{
+    height: 5rem;
+    background-color: #131A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-line{
+    margin-bottom: 0.30rem;
+    
+
+}
+.anc4{
+    color: #DDDDDD;
+    font-size: 0.85rem;
+    margin-right: 0.70rem;
+}
+.anc4:hover{
+    text-decoration: underline;
+    text-decoration-color: #DDDDDD;
+}
+.second-line{
+    color: #DDDDDD;
+    font-size: 0.85rem;
+}
+.copyright-icon{
+    font-size: 0.60rem;
+}
+
+
+/* ---------------- Responsive Design ---------------- */
+
+@media screen and (max-width: 1024px) {
+    .nav-search, .search {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0.5rem;
+    }
+
+    .sign-in, .ReturnsOrders, .cart {
+        margin-top: 0.5rem;
+    }
+
+    .shop-section {
+        justify-content: center;
+    }
+
+    .box {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-search {
+        width: 100%;
+        order: 2;
+        margin: 1rem 0;
+    }
+
+    .search {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .footer-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Responsive Styles for Mobile (phones under 480px width) */
+@media (max-width: 480px) {
+
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+    }
+  
+    .nav-logo, .nav-address, .sign-in, .ReturnsOrders, .cart {
+      width: 100%;
+      text-align: center;
+      margin: 0.3rem 0;
+    }
+  
+    .nav-search {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  
+    .Hero-Section {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .Hero-msg {
+      width: 90%;
+      padding: 0.5rem;
+      font-size: 0.85rem;
+    }
+  
+    .shop-section {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+    }
+  
+    .box {
+      width: 90%;
+      margin-bottom: 1rem;
+    }
+  
+    .footer-2, .footer-3, .footer-4 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+    }
+  
+    .footer-4 a {
+      display: block;
+      font-size: 0.9rem;
+      margin: 0.3rem 0;
+    }
+}
+  
+
